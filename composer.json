@@ -1,0 +1,32 @@
+{
+    "name": "drmer/pgrok",
+    "description": "Ngrok of php",
+    "keywords": ["drmer", "ngrok", "tunnel", "pgrok"],
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "yueyu",
+            "email": "donald@drmer.net"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "react/socket": "^0.8.9"
+    },
+    "autoload": {
+        "files": [
+            "src/Drmer/Pgrok/helpers.php"
+        ],
+        "psr-4": {
+            "Drmer\\Pgrok\\": "src/Drmer/Pgrok/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Drmer\\Pgrok\\PgrokServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
