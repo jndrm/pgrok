@@ -2,7 +2,7 @@
     "name": "drmer/pgrok",
     "description": "Ngrok of php",
     "keywords": ["drmer", "ngrok", "tunnel", "pgrok"],
-    "license": "Apache 2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "yueyu",
